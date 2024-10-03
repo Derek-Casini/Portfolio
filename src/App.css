@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #1E1E1E, #2C3E50);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: top;
+}
+
+.App-home{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.App-home-text {
+  border: 1px solid #82614a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #d0bca0;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.App-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #82614a;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button, a {
+  text-decoration: none;
+  color: #d0bca0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: none;
+  padding-right: 30px;
+  border: none;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.App-projects{
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-projects-table {
+  margin-top: 65px;
+  display: flex;
+  position: relative;
+  color: #d0bca0;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  max-width: 90%;
+  margin-bottom: 2%;
+}
+
+thead {
+  text-align: center;
+}
+
+
+a:hover {
+  color: #f3e3cd;
+}
+
+button.active, a.active {
+  color: #f3e3cd;
+  text-decoration: underline;
+  text-underline-offset: 18px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.code-symbol-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none; /* Prevent interaction with the background */
+}
+
+.symbol-character {
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for a code look */
+  font-size: 24px; /* Adjust font size as needed */
+  opacity: 0.8; /* Slight transparency */
+  animation: float 5s ease-in-out infinite; /* Add floating animation */
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
