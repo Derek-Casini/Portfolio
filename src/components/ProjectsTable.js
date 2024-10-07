@@ -7,7 +7,7 @@ function ProjectsTable(){
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Language(s)</th>
+                    <th className="language">Language(s)</th>
                     <th>Description</th>
                     <th>Demo</th>
                     <th>Code</th>
@@ -18,7 +18,7 @@ function ProjectsTable(){
                     <td>
                         Recursive Stair Stepper Problem Solver
                     </td>
-                    <td>
+                    <td className="language">
                         C++
                     </td>
                     <td>
@@ -39,7 +39,7 @@ function ProjectsTable(){
                     <td>
                         Hunt The Wumpus
                     </td>
-                    <td>
+                    <td className="language">
                         C++
                     </td>
                     <td>
@@ -60,7 +60,7 @@ function ProjectsTable(){
                     <td>
                         Integer Calculator
                     </td>
-                    <td>
+                    <td className="language">
                         Assembly
                     </td>
                     <td>
@@ -81,7 +81,7 @@ function ProjectsTable(){
                     <td>
                         Random Integers
                     </td>
-                    <td>
+                    <td className="language">
                         Assembly
                     </td>
                     <td>
@@ -102,7 +102,7 @@ function ProjectsTable(){
                     <td>
                         Exercise Tracker
                     </td>
-                    <td>
+                    <td className="language">
                         Javascript, HTML, CSS, JSON
                     </td>
                     <td>
@@ -120,10 +120,10 @@ function ProjectsTable(){
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td >
                         Min Heap
                     </td>
-                    <td>
+                    <td className="language">
                         Python
                     </td>
                     <td>
@@ -144,7 +144,7 @@ function ProjectsTable(){
                     <td>
                         Hash Map
                     </td>
-                    <td>
+                    <td className="language">
                         Python
                     </td>
                     <td>
