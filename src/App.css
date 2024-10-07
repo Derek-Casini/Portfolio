@@ -30,11 +30,15 @@ html {
 }
 
 .App-home-text {
+  background-image: linear-gradient(to bottom right, #1E1E1E, #2C3E50);
+  background-size: 100vw 100vh;
+  background-position: center;
   border: 1px solid #82614a;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   color: #d0bca0;
   padding: 10px;
   padding-top: 0px;
+  z-index: 2;
 }
 
 .App-nav{
@@ -48,7 +52,16 @@ html {
   justify-content: right;
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 3;
 }
+
+.App-logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
 
 button, a {
   text-decoration: none;
@@ -68,23 +81,23 @@ button, a {
   position: relative;
   height: 100vh;
   width: 100vw;
+  padding-top: 65px;
 }
 
 .App-projects-table {
-  margin-top: 65px;
   display: flex;
-  position: relative;
   color: #d0bca0;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: auto;
+  overflow: auto;
+  padding-bottom: 60px;
 }
 
 table {
   text-align: left;
-  width: 100%;
-  max-width: 90%;
-  margin-bottom: 2%;
+  width: 95%;
+  
 }
 
 thead {
@@ -113,14 +126,15 @@ button.active, a.active {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  pointer-events: none; /* Prevent interaction with the background */
+  pointer-events: none;
+  z-index: 0;
 }
 
 .symbol-character {
-  font-family: 'Courier New', Courier, monospace; /* Monospace font for a code look */
-  font-size: 24px; /* Adjust font size as needed */
-  opacity: 0.8; /* Slight transparency */
-  animation: float 5s ease-in-out infinite; /* Add floating animation */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  opacity: 0.8;
+  animation: float 5s ease-in-out infinite; 
 }
 
 @keyframes float {

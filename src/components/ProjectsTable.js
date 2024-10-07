@@ -7,6 +7,7 @@ function ProjectsTable(){
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Language(s)</th>
                     <th>Description</th>
                     <th>Demo</th>
                     <th>Code</th>
@@ -18,7 +19,10 @@ function ProjectsTable(){
                         Recursive Stair Stepper Problem Solver
                     </td>
                     <td>
-                        Uses recursion to solve the stair stepper problem. Written in C++.
+                        C++
+                    </td>
+                    <td>
+                        Uses recursion to solve the stair stepper problem.
                     </td>
                     <td>
                         <a href="https://www.youtube.com/watch?v=CBAGSYVloRY" target="_blank" rel="noopener noreferrer">
@@ -36,7 +40,10 @@ function ProjectsTable(){
                         Hunt The Wumpus
                     </td>
                     <td>
-                        A game where the user moves around rooms to defeat the wumpus using their bow and arrow. Written in C++.
+                        C++
+                    </td>
+                    <td>
+                        A game where the user moves around rooms to defeat the wumpus using their bow and arrow. The user can also escape by obtaining the gold and leaving via the escape rope. Written in C++.
                     </td>
                     <td>
                     <a href="https://www.youtube.com/watch?v=c5bvdJeFmZE" target="_blank" rel="noopener noreferrer">
@@ -54,8 +61,10 @@ function ProjectsTable(){
                         Integer Calculator
                     </td>
                     <td>
-                    About
-                    Asks the user for 10 signed decimal integers, then returns each number along with the sum and average. Written in Assembly.
+                        Assembly
+                    </td>
+                    <td>
+                        Asks the user for 10 signed decimal integers, then returns each number along with the sum and average.
                     </td>
                     <td>
                     <a href="https://www.youtube.com/watch?v=Jf5DD1MYL_0" target="_blank" rel="noopener noreferrer">
@@ -73,7 +82,10 @@ function ProjectsTable(){
                         Random Integers
                     </td>
                     <td>
-                        Generates random integers, then sorts and counts them. Written in Assembly.
+                        Assembly
+                    </td>
+                    <td>
+                        Generates random integers, then sorts and counts them.
                     </td>
                     <td>
                         <a href="https://www.youtube.com/watch?v=3yFlUTK6pvw" target="_blank" rel="noopener noreferrer">
@@ -91,7 +103,10 @@ function ProjectsTable(){
                         Exercise Tracker
                     </td>
                     <td>
-                        A full stack MERN app which tracks exercises completed.
+                        Javascript, HTML, CSS, JSON
+                    </td>
+                    <td>
+                        A full stack MERN app which tracks exercises completed. Note that the backend spins down after periods of inactivity which may cause Exercise Tracker to take a while to load.
                     </td>
                     <td>
                         <a href="https://derek-casini.github.io/Exercise_Tracker/#/" target="_blank" rel="noopener noreferrer">
@@ -109,7 +124,10 @@ function ProjectsTable(){
                         Min Heap
                     </td>
                     <td>
-                        A heap where data is stored in a tree ordered from smallest to largest. Written in Python.
+                        Python
+                    </td>
+                    <td>
+                        A heap where data is stored in a tree ordered from smallest to largest.
                     </td>
                     <td>
                         <a href="https://www.youtube.com/watch?v=3RbXo1nWfxE" target="_blank" rel="noopener noreferrer">
@@ -127,7 +145,10 @@ function ProjectsTable(){
                         Hash Map
                     </td>
                     <td>
-                        Hash map implementation created in python using open addressing.
+                        Python
+                    </td>
+                    <td>
+                        Hash map implementation using open addressing.
                     </td>
                     <td>
                         <a href="https://www.youtube.com/watch?v=NMXpLVjcm7g" target="_blank" rel="noopener noreferrer">
