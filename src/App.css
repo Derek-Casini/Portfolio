@@ -41,18 +41,52 @@ html {
   z-index: 2;
 }
 
-.App-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #82614a;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  z-index: 3;
+.App-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #82614a;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.App-nav button,
+.App-nav a {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 480px) {
+    .App-nav {
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .App-nav button,
+    .App-nav a {
+        font-size: 18px;
+        padding-right: 10px;
+    }
+}
+
+button.active,
+a.active {
+    color: #f3e3cd;
+    text-decoration: underline;
+    text-underline-offset: 18px;
+}
+
+a:hover {
+    color: #f3e3cd;
 }
 
 .App-logo{
@@ -61,7 +95,6 @@ html {
   left: 0;
   z-index: 4;
 }
-
 
 button, a {
   text-decoration: none;

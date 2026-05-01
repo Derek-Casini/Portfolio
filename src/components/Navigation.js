@@ -13,6 +13,7 @@ function Navigation(){
                     <Link to="/"
                         className={location.pathname === '/' ? 'active' : ''}>Home</Link>
                 </button>
+                <a href="https://www.linkedin.com/in/derek-casini-4090a2199" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://drive.google.com/file/d/1WBORLNlIartbaedIEA1k_Mrt_rpS58mF/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                 <button id="projects-button">
                     <Link to='/projects'
